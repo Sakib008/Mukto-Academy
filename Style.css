@@ -1,0 +1,354 @@
+body{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.container{
+    height: 36cm;
+    width: 18cm;
+    padding-right: 40px;
+    background-image: url('image/backgrount.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 63px;
+   
+}
+.container .identity{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    margin-left: 82px;
+    font-family: kalpurus;
+}
+.id, .address, .academy, .course{
+    height: 6cm;
+    width: 17cm;
+    background-color: rgb(91, 181, 255);
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 900;
+    padding-top: 5px ;
+    padding-left: 10px;
+    margin: 10px 57px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 14px;
+    font-family: kalpurus;
+}
+.address, .academy, .course{
+    height: 5cm;
+    padding-bottom: 7px;
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    display: inline-block;
+    position: relative;
+    left: 203px;
+    top: 23px;
+    color: white;
+    font-family: Sheikh;
+    margin: 0;
+}
+
+ h2{
+    text-align: center;
+    font-family: kalpurus;
+    font-size: 20px;
+   
+}
+h3{
+    font-size: 3em;
+    text-align: center;
+    border-bottom: 2px solid black ;
+    padding-bottom: 8px;
+    display: inline-block;
+    position: relative;
+    left: 280px;
+    top: 40px;
+    font-family: classic;
+    font-weight: 400;
+    margin-top: 0;
+}
+.bismillah{
+    position:relative;
+    top: 30px;
+    right: -298px;
+    margin: 0;
+    color: azure;
+    font-family: kalpurus;
+    font-size: 15px;
+}
+.visit img, .mobile img{
+    height: 15px;
+    width: 15px;
+    background-color: azure;
+}
+.visit, .mobile{
+    margin: 0;
+    color: azure;
+    font-family: kalpurus;
+    font-size: 13px;
+    position:relative;
+    top: 30px;
+    right: -219px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    font-family: kalpurus;
+}
+.foot h5{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 5px 6px;
+    
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+    left: -48px;
+    top: 12px;
+}
+.sign1{
+    position: relative;
+    left: -41px;
+    top: 34px;
+    padding-top: 8px;
+    border-top: 2px solid black;
+
+}
+.sign2{
+    position: relative;
+    left: 400px;
+    top: 40px;
+    padding-top: 8px;
+    border-top: 2px solid black;
+}
+input{
+    width: 12cm;
+
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.form, .time{
+    font-size: 13px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: rgb(41, 40, 40);
+    padding: 3px;
+   
+    
+}
+.form{
+    display: inline-block;
+    position:relative;
+    top: 53px;
+    right: -86px;
+}
+.time{
+    position:relative;
+    top: 50px;
+    right: -459px;
+     display: inline-block;
+}
+.pic{
+    height: 120px;
+    width: 120px;
+    border: 3px solid rgb(169, 218, 250);
+    position: relative;
+    left: 560px;
+    top: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+.picture{
+    position:relative;
+    top: -53px;
+    right: -609px;
+     display: inline-block;
+     font-size: large;
+}
+
+ .father, .mother, .uni-inp, .jela-inp, .gram-inp{
+    width: 4cm;
+}
+.mob-father, .mob-mother{
+    width: 4cm;
+}
+.m{
+    position: relative;
+    left: 383px;
+    top: -65px;
+}
+.bari{
+    position: relative;
+    left: 70px;
+}
+.union{
+    position:relative;
+    left: 384px;
+    top: -31px;
+}
+.name-bangla{
+    position: relative;
+    left: 52px;
+
+}
+.father{
+    position: relative;
+    left: 62px;
+
+}
+.mother{
+    position: relative;
+    left: 62px;
+
+}
+.name-eng
+{
+    position: relative;
+    left: 47px;
+
+}    
+.birth
+{
+    position: relative;
+    left: 63px;
+
+}   
+.o-inp{
+    position: relative;
+    left: 99px;
+
+}
+.gram-inp{
+    position: relative;
+    left: 109px;
+}
+.wrd{
+    position:relative;
+  
+    top: -30px;
+}
+.jela{
+    position:relative;
+    left: 252px;
+    top: -63px;
+}
+
+.jela-inp, .o-inp, .up-inp{
+    width: 2.5cm;
+}
+.upojela{
+    position:relative;
+    left: 434px;
+    top: -97px;
+}
+.scl-inp{
+    width: 12.1cm;
+}
+.class-inp{
+    width: 3cm;
+    position:relative;
+    left: 81px;
+    top: 2px;
+}
+.roll{
+    position:relative;
+    left: 272px;
+    top: -32px;
+}
+.roll-inp, .gpa-inp, .ssc-inp, .hsc-inp, .form-inp, .time-inp {
+    width: 2.2cm;
+}
+.validation-inp, .fee-inp, .pre-inp, .remining-inp{
+    width: 5.5cm;
+}
+.division{
+    position:relative;
+    left: 419px;
+    top: -66px;
+}
+.division-inp{
+    width: 3cm;
+}
+.gpa{
+    position:relative;
+    top: -50px;
+}
+.gpa-inp{
+    position:relative;
+    left: 14px;
+}
+.ssc{
+    position:relative;
+    top: -84px;
+    left: 222px;
+}
+.ssc-inp{
+    position:relative;
+    left: 10px;
+}
+.hsc{
+    position:relative;
+    top: -118px;
+    left: 407px;
+}
+.hsc-inp{
+    position:relative;
+    left: 10px;
+}
+
+
+.course-name-inp{
+    position:relative;
+    left: 60px;
+    width: 12.2cm;
+}
+.validation{
+    position:relative;
+    top: 2px;
+    left: 30px;
+}
+.validation-inp{
+    position:relative;
+    left: 61px;
+    width: 4.7cm;
+}
+.fee{
+    position:relative;
+    top: -32px;
+    left: 330px;
+}
+
+.pre{
+    position:relative;
+    top: -29px;
+    font-size: 12px;
+    left: 7px;
+}
+.pre-inp{
+    position:relative;
+    left: 49px;
+    width: 4cm;
+}
+.remining{
+    position:relative;
+    top: -65px;
+    left: 337px;
+}
+.remining-inp{
+    position:relative;
+    left: 10px;
+    width: 4cm;
+}
