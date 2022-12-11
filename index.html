@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form-Mukto-Academy</title>
     <link rel="stylesheet" href="Style/Style.css">
     <link rel="stylesheet" href="font/font.css">
 </head>
@@ -17,9 +17,8 @@
         <p class="mobile"><img src="image/icons8-customer-50.png" alt="">   মোবাইলঃ 01632-728766, 01846-972309</p>
         <p class="form">ফর্ম নাম্বার : <br> <input class="form-inp" type="number" name="" id=""></p>
         
-        <p class="time">তারিখ : <br> <input class="time-inp" type="date" name="" id=""></p>
-        <input type="file" placeholder="PIC" class="pic">
-            <h4 class="picture">ছবি</h4>
+        <p class="time">তারিখ : <br><input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg" placeholder="PIC" class="pic">
+            <div id="display-image"></div>
         
         <h3>
             ভর্তি ফর্ম
@@ -83,6 +82,17 @@
             </div>
           
         </div>
-    
+      <script>
+        const image_input = document.querySelector("#image-input");
+
+image_input.addEventListener("change", function() {
+  const reader = new FileReader();
+  reader.addEventListener("load", () => {
+    const uploaded_image = reader.result;
+    document.querySelector("#display-image").style.backgroundImage = `url(${uploaded_image})`;
+  });
+  reader.readAsDataURL(this.files[0]);
+});
+    </script>
 </body>
 </html>
