@@ -21,6 +21,17 @@ body{
     margin-left: 82px;
     font-family: kalpurus;
 }
+#display-image{
+    width: 126px;
+    height: 118px;
+    position: relative;
+    left: 559px;
+    top: -47px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    background-position: center;
+    background-size: contain;
+  }
 .id, .address, .academy, .course{
     height: 6cm;
     width: 17cm;
